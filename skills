@@ -1,0 +1,41 @@
+Skills: Athletics, Acrobatics,
+
+Athletics - STR : 
+	Untrained   - trip, basic leap
+	Trained     - grapple, shove, climb, swim
+	Expert      - powerful leap, powerful shove, blunt trip
+	Master      - heavenly movement.
+
+  Trip A(Attack):
+          “You hook your opponent and pull, imbalancing and crashing them into the ground”
+    target: 1 creature within reach
+    requirment: free hand
+    Attempt an athletics check against target reflex dc
+      Success - target falls prone
+      Critical F - you fall prone
+    Blunt trip - target takes 1d6[Blud] on a success, and double that on a Crit S
+    Acrobatic Trip - you can use acrobatics to trip your opponent.
+
+Acrobatics - DEX: 
+  Untrained - balance A, squeeze
+  Trained   - quick squeeze(1[Sq]), Nimble Crawl(2[Sq]), tumbling strike
+  Expert    - QS(2[Sq]), NC(\Speed/2), acrobatic trip, steady balance
+  Master    - kip up, NC AND QS(\Speed), tumbling maneuver, incredible balance
+
+  kip up F - you \Stand Up
+  
+  Nimble Crawl:
+    you can move x while prone
+        where x depends on your acrobatics proficency:
+        Trained => 2[Sq]
+        Expert  => 2[Sq] Or \Speed / 2 
+        Master  =>          \Speed
+
+	Tumbling Strike  R(Attack):
+    "you slide between the gaint's legs, emerging behind him, and lopping his head"
+		Trigger: you succeed on an ACRO check to move through a creature
+		Target: the triggering creature
+		Make a \Strike against the target, the target is {FF} if the triggering check was a CRIT_S
+    
+    Tumbling maneuver - you can use an action with the attack trait and a single target
+
